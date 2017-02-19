@@ -116,10 +116,10 @@ for run in xrange(N):
 		else:
 			bar_init_locate = bar_Fix
 			print "Saiu bar_fix {0}".format(run)
-			break	
+			break
 	bar_left.goto(-bar_init_locate,0)
 	bar_right.goto(bar_init_locate,0)
-	vec_x = [person_init/140.0]	
+	vec_x = [person_init/140.0]
 	if run == 0:
 		Delta_U = U(person.pos()[0]+10.0,bar_right.pos()[0],bar_left.pos()[0])-(U(person.pos()[0]-10.0,bar_right.pos()[0],bar_left.pos()[0]))
 		print "U+10: {0:.2f}".format(U(person.pos()[0]+10.0,bar_right.pos()[0],bar_left.pos()[0])), "U-10: {0:.2f}".format(U(person.pos()[0]-10.0,bar_right.pos()[0],bar_left.pos()[0]))
@@ -176,13 +176,13 @@ for run in xrange(N):
 		print "p_new: {0:.2f}".format(p)
 		vec_x += [int(walk_x/10)/14.0]
 		cont+=1
-		arq4.write('%s\t%s\n' %(cont,vec_x[step]))	
+		arq4.write('%s\t%s\n' %(cont,vec_x[step]))
 		arq5.write("%s\t%s\n" %(p,Delta_U))
 		plt.ion()
 		plt.clf()
 		plt.plot(vec_x,"-b")
 		plt.plot(vec_x,".r")
-		plt.draw()	
+		plt.draw()
 else:
 	if Ta != 0:
 		arq2.write('%s\n' %(Ta))
