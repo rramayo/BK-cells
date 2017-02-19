@@ -10,6 +10,32 @@
       - CV Lattes: [Xavier-Santos, I.A.](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4805442U6)
       - Github: [iuryxavier](https://github.com/iuryxavier)
 
+
+## Estrutura do Projeto em árvore
+### BK_cells
+
+```bash
+$ tree
+.
+├── projeto_null
+│   ├── agatha_null.py
+│   └── README_null.md
+├── projeto_one
+│   ├── agatha_one.py
+│   └── README_one.md
+├── projeto_three
+│   ├── agatha_three.py
+│   └── README_three.md
+├── projeto_two
+│   ├── agatha_two.py
+│   └── README_two.md
+├── README.md
+└── requirements.txt
+
+4 directories, 10 files
+```
+
+# Intall Python
 ## Versão Python 2.7.13 | Version Python 2.7.13
 ## Ubuntu & LinuxMint
 ### Instalar Pacotes Requeridos | Install Required Packages
@@ -53,9 +79,7 @@ $ python2 -V
 Python 2.7.13
 ```
 
-
 ---------------------------------------------------------------
-
 
 #  virtualenv: Virtual Python Environment builder
 Ambiente Isolado para Python com virtualenv, não afeta o python instalado de forma global
