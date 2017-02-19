@@ -1,7 +1,8 @@
-# Projeto BK-cells
+# Projeto: BK-cells
 ## version: v1.0.0
 
 ## Contribuintes:
+
   - Pesquisador:
     - Dr. Ramón Enrique Ramayo González
       - CV Lattes: [Gonzales, R.E.R.](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4266447Z9)
@@ -10,8 +11,7 @@
       - CV Lattes: [Xavier-Santos, I.A.](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4805442U6)
       - Github: [iuryxavier](https://github.com/iuryxavier)
 
-# versão Python 2.7.13 | version Python 2.7.13
-
+## Versão Python 2.7.13 | Version Python 2.7.13
 ## Ubuntu & LinuxMint
 ### Instalar Pacotes Requeridos | Install Required Packages
 
@@ -43,7 +43,7 @@ $ python2.7 -V
 Python 2.7.13
 ```
 
-### Referência:
+### Referência | Reference:
 #### [How to Install Python 2.7.13 on Ubuntu & LinuxMint](http://tecadmin.net/install-python-2-7-on-ubuntu-and-linuxmint/)
 
 ## Arch Linux
@@ -59,20 +59,20 @@ Python 2.7.13
 #  virtualenv: Virtual Python Environment builder
 Ambiente Isolado para Python com virtualenv, não afeta o python instalado de forma global
 
-### Instalar o vitualenv no Ubuntu & LinuxMint | Install virtualenv in Ubuntu & LinuxMint
+## Instalar o vitualenv no Ubuntu & LinuxMint | Install virtualenv in Ubuntu & LinuxMint
 
 ```bash
 $ sudo python2.7 -m pip install -U pip
 $ sudo python2.7 -m pip install -U virtualenv
 ```
 
-### Instalar o vitualenv no Arch Linux | Install virtualenv in Arch Linux
+## Instalar o vitualenv no Arch Linux | Install virtualenv in Arch Linux
 
 ```bash
 $ sudo pacman -S python2-virtualenv
 ```
 
-### Preparando o Projeto BK_cells v1.0.0
+### Preparando o Projeto BK_cells v1.0.0 |
 
 ```bash
 $ cd ~
@@ -91,5 +91,12 @@ Python 2.7.13
 venv BK_cells
 (venv) $ cd BK_cells
 (venv) $ git init
-(venv) $ git remote add origin 
+(venv) $ git remote add origin
+```
+
+### Comando para desativar o virtualenv | Command to Disable virtualenv
+
+```bash
+(venv) $ deactivate
+$
 ```
