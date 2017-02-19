@@ -1,5 +1,5 @@
 # Projeto: BK-cells
-## version: v1.0.1
+## version: v1.1.0 InProgress
 
 ## Contribuintes:
   - Pesquisador:
@@ -66,7 +66,7 @@ Ambiente Isolado para Python com virtualenv, não afeta o python instalado de fo
 $ sudo apt-get install python-pip
 ```
 
-### Preparando o Projeto BK_cells v1.0.1
+### Preparando o Projeto BK_cells v1.1.0
 
 ```bash
 $ cd ~
@@ -83,37 +83,53 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.0.1' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v1.1.0' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
-projeto_agatha_2017_1.py  projeto_agatha_2017_3.py  README.md
-projeto_agatha_2017_2.py  projeto_agatha_2017.py  requirements.txt
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
 (venv) $ pip install -r requirements.txt
 ```
 
-### Executar o Programa projeto_agatha_2017.py
+### Executar o Programa projeto_null/agatha_null.py
 
 ```bash
-(venv) $ python projeto_agatha_2017.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_null
+(venv) $ python agatha_null.py
 ```
 
-### Executar o Programa projeto_agatha_2017_1.py
+### Executar o Programa projeto_one/agatha_one.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_1.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_one
+(venv) $ python agatha_one.py
 ```
 
-### Executar o Programa projeto_agatha_2017_2.py
+### Executar o Programa projeto_two/agatha_two.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_2.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_two
+(venv) $ python agatha_two.py
 ```
 
-### Executar o Programa projeto_agatha_2017_3.py
+### Executar o Programa  projeto_three/agatha_three.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_3.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_three
+(venv) $ python agatha_three.py
 ```
 
 ### Comando para desativar o virtualenv | Command to Disable virtualenv
@@ -129,7 +145,7 @@ $
 $ sudo pacman -S python2-virtualenv
 ```
 
-### Preparando o Projeto BK_cells v1.0.1
+### Preparando o Projeto BK_cells v1.1.0
 
 ```bash
 $ cd ~
@@ -146,37 +162,53 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.0.1' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v1.1.0' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
-projeto_agatha_2017_1.py  projeto_agatha_2017_3.py  README.md
-projeto_agatha_2017_2.py  projeto_agatha_2017.py  requirements.txt
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
 (venv) $ pip install -r requirements.txt
 ```
 
-### Executar o Programa projeto_agatha_2017.py
+### Executar o Programa projeto_null/agatha_null.py
 
 ```bash
-(venv) $ python projeto_agatha_2017.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_null
+(venv) $ python agatha_null.py
 ```
 
-### Executar o Programa projeto_agatha_2017_1.py
+### Executar o Programa projeto_one/agatha_one.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_1.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_one
+(venv) $ python agatha_one.py
 ```
 
-### Executar o Programa projeto_agatha_2017_2.py
+### Executar o Programa projeto_two/agatha_two.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_2.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_two
+(venv) $ python agatha_two.py
 ```
 
-### Executar o Programa projeto_agatha_2017_3.py
+### Executar o Programa  projeto_three/agatha_three.py
 
 ```bash
-(venv) $ python projeto_agatha_2017_3.py
+(venv) $ ls
+projeto_null  projeto_three  README.md
+projeto_one   projeto_two    requirements.txt
+(venv) $ cd projeto_three
+(venv) $ python agatha_three.py
 ```
 
 ### Comando para desativar o virtualenv | Command to Disable virtualenv
