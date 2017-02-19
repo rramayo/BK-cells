@@ -1,5 +1,5 @@
 # Projeto: BK-cells
-## version: v1.1.0 InProgress
+## version: v1.1.0
 
 ## Contribuintes:
   - Pesquisador:
