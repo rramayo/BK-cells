@@ -1,5 +1,5 @@
 # Projeto: BK-cells
-## version: v1.1.0
+## version: v2.0.0 - InProgress Danger: no git clone v2.0.0 version beta-testing
 
 ## Contribuintes:
   - Pesquisador:
@@ -90,7 +90,7 @@ Ambiente Isolado para Python com virtualenv, não afeta o python instalado de fo
 $ sudo apt-get install python-pip
 ```
 
-### Preparando o Projeto BK_cells v1.1.0
+### Preparando o Projeto BK_cells v2.0.0
 
 ```bash
 $ cd ~
@@ -107,7 +107,7 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.1.0' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v2.0.0' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
@@ -169,7 +169,7 @@ $
 $ sudo pacman -S python2-virtualenv
 ```
 
-### Preparando o Projeto BK_cells v1.1.0
+### Preparando o Projeto BK_cells v2.0.0
 
 ```bash
 $ cd ~
@@ -186,7 +186,7 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.1.0' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v2.0.0' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
