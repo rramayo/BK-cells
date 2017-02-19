@@ -1,5 +1,5 @@
 # Projeto: BK-cells
-## version: v1.0.0
+## version: v1.0.1
 
 ## Contribuintes:
   - Pesquisador:
@@ -66,7 +66,7 @@ Ambiente Isolado para Python com virtualenv, não afeta o python instalado de fo
 $ sudo apt-get install python-pip
 ```
 
-### Preparando o Projeto BK_cells v1.0.0
+### Preparando o Projeto BK_cells v1.0.1
 
 ```bash
 $ cd ~
@@ -83,7 +83,7 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.0.0' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v1.0.1' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
@@ -129,7 +129,7 @@ $
 $ sudo pacman -S python2-virtualenv
 ```
 
-### Preparando o Projeto BK_cells v1.0.0
+### Preparando o Projeto BK_cells v1.0.1
 
 ```bash
 $ cd ~
@@ -146,7 +146,7 @@ Python 2.7.13
 (venv) $ mkdir BK_cells
 (venv) $ ls
 venv BK_cells
-(venv) $ git clone -b 'v1.0.0' https://github.com/rramayo/BK-cells BK_cells
+(venv) $ git clone -b 'v1.0.1' https://github.com/rramayo/BK-cells BK_cells
 Obs: git clone -b <name_of_the_tag> <repository_url> <destination>
 (venv) $ cd BK_cells
 (venv) $ ls
