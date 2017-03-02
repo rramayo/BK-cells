@@ -241,3 +241,23 @@ projeto_one   projeto_two    requirements.txt
 (venv) $ deactivate
 $
 ```
+
+# Intall Pypy (Python Fast)
+## Ubuntu & LinuxMint
+
+```bash
+$ sudo add-apt-repository ppa:pypy/ppa
+$ sudo apt-get update
+$ sudo apt-get install pypy pypy-dev
+$ ls
+venv BK_cells
+$ mkdir pypy-venv
+$ sudo pypy -m ensurepip
+$ which pypy
+/usr/bin/pypy
+$ virtualenv -p /usr/bin/pypy pypy-venv
+$ source pypy-venv/bin/activate
+(pypy-venv) $ pip install -U pip
+(pypy-venv) $ cd BK_cells
+(pypy-venv) $ pip install -r requirements.txt
+```
