@@ -260,4 +260,6 @@ $ source pypy-venv/bin/activate
 (pypy-venv) $ pip install -U pip
 (pypy-venv) $ cd BK_cells
 (pypy-venv) $ pip install -r requirements.txt
+(pypy-venv) $ cd projeto_three
+(pypy-venv) $ python agatha_three.py
 ```
