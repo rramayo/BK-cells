@@ -49,8 +49,8 @@ $ sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqli
 
 ```bash
 $ cd /usr/src
-$ wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
-$ tar xzf Python-2.7.13.tgz
+$ sudo wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
+$ sudo tar xzf Python-2.7.13.tgz
 ```
 
 ### Compilar o Python | Compile Python Source
